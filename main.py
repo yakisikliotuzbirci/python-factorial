@@ -1,11 +1,9 @@
-def fact(sayi):
-    if sayi <= 1:
-        return 1
-    else:
-        return sayi * fact(sayi - 1)
-
-
+def factorial(x : int):
+    fact = 1
+    for i in range(1, x + 1):
+        fact = fact * i
+    return fact
+        
 if __name__ == "__main__":
-    sayi = int(input("Faktoriyelini almak istediğiniz sayıyı giriniz : "))
-
-    print(fact(sayi))
+    x = int(input("x : "))
+    print(f"x! = {factorial(x)}")
