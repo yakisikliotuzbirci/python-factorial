@@ -1,1 +1,1 @@
-# python-faktoriyel-alma
+# python-factorial
